@@ -1,0 +1,72 @@
+{
+  "categories":[
+    "суп",
+    "горячее"
+  ],
+  "times":[
+    "быстро",
+    "средне",
+    "медленно",
+    "очень медленно"
+  ],
+  "recipes":[
+              {
+                "name":"Блюдо 1",
+                "id":1,
+                "description":"Краткое описание",
+                "ingredient":[
+                                {
+                                  "name":"ингридиент1",
+                                  "amount":"20",
+                                  "type":"gramms"
+                                },
+                                {
+                                  "name":"ингридиент2",
+                                  "amount":"20",
+                                  "type":"count"
+                                },
+                                {
+                                  "name":"ингридиент3",
+                                  "amount":"0.1",
+                                  "type":"liter"
+                                }
+                              ],
+                "instruction":[
+                                {
+                                  "text":"сделать что-то"
+                                }
+                              ],
+                "categories":"суп",
+                "time":"быстро"
+              },
+              {
+                "name":"Вкусное блюдо 2",
+                "id":2,
+                "description":"Не очень краткое описание",
+                "ingredient":[
+                                {
+                                  "name":"2 ингридиент1",
+                                  "amount":"20",
+                                  "type":"gramms"
+                                },
+                                {
+                                  "name":"2 ингридиент2",
+                                  "amount":"20",
+                                  "type":"count"
+                                },
+                                {
+                                  "name":"2 ингридиент3",
+                                  "amount":"0.1",
+                                  "type":"liter"
+                                }
+                              ],
+                "instruction":[
+                                {
+                                  "text":"сделать что-то 2"
+                                }
+                ],
+                "categories":"суп",
+                "time":"медленно"
+              }
+  ]
+}
